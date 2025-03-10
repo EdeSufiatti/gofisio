@@ -8,12 +8,15 @@ const services = [
 export default function Profile({ setStep, setSelectedService }) {
   return (
     <div>
-      <h1>Perfil do Fisioterapeuta</h1>
-      <img src="https://via.placeholder.com/150" alt="Fisioterapeuta" />
-      <h2>Dr. João Silva</h2>
-      <p>Especialista em reabilitação física e esportiva.</p>
+      
+      <h2>Dra. Leticia Silva</h2>
+      <img src="./src/assets/fisio.jpg" alt="Fisioterapeuta" />
+      
+      <p>Crefito: 12034564-0.</p>
+      <br />
 
       <h3>Serviços Disponíveis</h3>
+      <br />
       <div>
         {services.map((service) => (
           <div key={service.id} style={{ margin: "10px", border: "1px solid #ccc", padding: "10px" }}>
